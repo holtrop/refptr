@@ -1,0 +1,6 @@
+Author: Josh Holtrop
+Purpose: Provide a reference-counting pointer-like first order
+  C++ object that will free the object it is pointing to when
+  all references to it have been destroyed.
+This simple implementation does not concern itself with the
+circular reference problem.
